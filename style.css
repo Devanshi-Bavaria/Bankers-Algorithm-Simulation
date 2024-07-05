@@ -1,0 +1,116 @@
+body {
+  background-color: bisque;
+  margin: 20px 40px 20px 40px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: bolder;
+  font-variant: small-caps;
+  color: black;
+  text-decoration: underline;
+}
+
+#allTables p,#title {
+  font-size: 25px;
+  font-variant: small-caps;
+  color: red;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p,#allTables h2,#makeResourceRequest h2 {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: indigo;
+}
+
+table {
+  border: 2px solid black;
+  align-self: center;
+  text-align: center;
+  font-family: verdana;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: cursive;
+  vertical-align: middle;
+  border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+  background-color: palegreen;
+}
+
+tr:nth-child(even) {
+  background-color: paleturquoise;
+}
+
+tr {
+  background-color: coral;
+  color: darkblue;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+td {
+  height: 30px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+input[type='text'] {
+  height: 30px;
+  width: 50px;
+  padding: 5px;
+  margin: 5px auto;
+  border-radius: 5px;
+  border: 3px solid darkred;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#inputs {
+  vertical-align: top;
+  display: inline-block;
+  width: 900px;
+  height: 120px;
+}
+
+#buttons {
+  display: inline-block;
+  width: 500px;
+  height: 120px;
+  text-align: center;
+  position: fixed;
+}
+
+#allTables {
+  margin-top: 50px;
+}
+
+input[type='button'] {
+  font-variant: small-caps;
+  height: 50px;
+  padding: 10px 50px 10px 50px;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lightcoral;
+  cursor: pointer;
+}
+
+#resourceRequestPart,#makeResourceRequest {
+  visibility: hidden;
+}
+
+hr {
+  border: 2px solid green;
+}
