@@ -20,4 +20,4 @@ You can find an example of the Banker's Algorithm simulation in the `Input_Outpu
 
 ## Deployment
 
-The project has been deployed and you can access it [here](https://arunimabarik75.github.io/Bankers-Algorithm/).
+The project has been deployed and you can access it [here](https://devubavariaa.github.io/Bankers-Algorithm-Simulation/).
